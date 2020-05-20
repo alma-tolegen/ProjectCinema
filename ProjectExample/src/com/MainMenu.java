@@ -11,9 +11,7 @@ import java.util.ArrayList;
 
 public class MainMenu extends Container{
     private JLabel label1;
-    private JButton regButton;
-    private JButton loginButton;
-    private JButton exitButton;
+    private JButton regButton, loginButton, exitButton, adminButton;
     private ImageIcon imageIcon;
 
     public MainMenu() {
@@ -22,7 +20,7 @@ public class MainMenu extends Container{
 
         JButton loginButton = new JButton();
         ImageIcon imageIcon = createIcon("/images/loginButton.png");
-        loginButton.setBounds(340,170,211,58);
+        loginButton.setBounds(340,145,211,58);
         loginButton.setIcon(imageIcon);
         loginButton.addActionListener(new ActionListener() {
             @Override
@@ -36,7 +34,7 @@ public class MainMenu extends Container{
 
         JButton regButton = new JButton();
         ImageIcon icon3 = createIcon("/images/regButton.png");
-        regButton.setBounds(340,270,211,58);
+        regButton.setBounds(340,225,211,58);
         regButton.setIcon(icon3);
         regButton.addActionListener(new ActionListener() {
             @Override
@@ -50,7 +48,7 @@ public class MainMenu extends Container{
 
         JButton exitButton = new JButton();
         ImageIcon icon1= createIcon("/images/exitButton.png");
-        exitButton.setBounds(340,370,211,58);
+        exitButton.setBounds(340,385,211,58);
         exitButton.setIcon(icon1);
         exitButton.addActionListener(new ActionListener() {
             @Override
@@ -59,6 +57,20 @@ public class MainMenu extends Container{
             }
         });
         add(exitButton);
+
+        adminButton = new JButton();
+        ImageIcon icon4= createIcon("/images/adminButton.png");
+        adminButton.setBounds(340,305,211,58);
+        adminButton.setIcon(icon4);
+        adminButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Main.frame.menuWindow.setVisible(false);
+                Main.frame.adminpage.setVisible(false);
+                Main.frame.admin.setVisible(true);
+            }
+        });
+        add(adminButton);
 
         JLabel label1 = new JLabel();
         ImageIcon icon = createIcon("/images/fono12.png");

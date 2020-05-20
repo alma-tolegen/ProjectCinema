@@ -1,13 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4f9a339-17cc-4e5a-9acf-21e17d2ddc3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a4f9a339-17cc-4e5a-9acf-21e17d2ddc3d" name="Default Changelist" comment="Commit2">
+      <change afterPath="$PROJECT_DIR$/src/com/GUI/AdminPageGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/GUI/adminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/Class/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/Class/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/Class/ClientAndFood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/Class/ClientAndFood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/Food$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/Food$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/Food$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/Food$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/LoginGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/LoginGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/LoginGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/LoginGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/LoginGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/LoginGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/PackageData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/PackageData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/ServerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M3$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M3$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M4$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M4$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M5$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M5$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M6$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M6$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M6$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M7$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M7$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M7$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M7$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M8$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M8$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M8$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M8$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Class/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Class/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Class/ClientAndFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Class/ClientAndFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/GUI/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/GUI/LoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/LoginGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/GUI/RegistrationGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/RegistrationGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/PackageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PackageData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/clock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,8 +110,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -52,7 +127,20 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" singleton="false" temporary="true">
+    <configuration name="Admin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Admin.Admin" />
+      <module name="ProjectExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="com.Main" />
       <module name="ProjectExample" />
       <RunnerSettings RunnerId="Run" />
@@ -105,11 +193,12 @@
       <item itemvalue="Application.RegisterForm" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.TextFieldTest" />
+      <item itemvalue="Application.Admin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Admin" />
         <item itemvalue="Application.TextFieldTest" />
         <item itemvalue="Application.RegisterForm" />
       </list>
@@ -145,18 +234,37 @@
       <option name="project" value="LOCAL" />
       <updated>1588954758313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit2">
+      <created>1588956961974</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588956961974</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit2">
+      <created>1588967313262</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588967313262</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit1" />
+    <MESSAGE value="Commit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="75" key="#Inspections" timestamp="1588893399688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="75" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1588893399688" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1589979131606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589979131606" />
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588873254276">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -173,10 +281,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="206" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1587732679944" />
-    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588951829958">
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589990880427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1588951829958" />
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1589990880427" />
     <state x="571" y="305" width="393" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588703984289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -185,62 +293,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="224" y="126" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588265473433" />
-    <state x="694" y="15" key="CommitChangelistDialog2" timestamp="1588954756952">
+    <state x="694" y="15" key="CommitChangelistDialog2" timestamp="1589993506453">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="694" y="15" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588954756952" />
+    <state x="694" y="15" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589993506453" />
     <state x="385" y="158" key="ConfigureClientPropertiesDialog" timestamp="1587974087514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="385" y="158" key="ConfigureClientPropertiesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587974087514" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1588956794387">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1589864935494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588956794387" />
-    <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1588954070088">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589864935494" />
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1589993506484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588954070088" />
-    <state width="1493" height="200" key="GridCell.Tab.0.center" timestamp="1588954070088">
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589993506484" />
+    <state width="1493" height="200" key="GridCell.Tab.0.center" timestamp="1589993506484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588954070088" />
-    <state width="1493" height="200" key="GridCell.Tab.0.left" timestamp="1588954070088">
+    <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589993506484" />
+    <state width="1493" height="200" key="GridCell.Tab.0.left" timestamp="1589993506483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588954070088" />
-    <state width="1493" height="200" key="GridCell.Tab.0.right" timestamp="1588954070088">
+    <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589993506483" />
+    <state width="1493" height="200" key="GridCell.Tab.0.right" timestamp="1589993506484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588954070088" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1588935447851">
+    <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589993506484" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1589983937047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588935447851" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1588935447851">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589983937047" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1589983937047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588935447851" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1588935447851">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589983937047" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1589983937047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588935447851" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1588935447851">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589983937047" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1589983937047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588935447851" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589983937047" />
     <state x="262" y="14" key="SettingsEditor" timestamp="1588319464757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="262" y="14" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588319464757" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1588954763328">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1588967315952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588954763328" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1588937139862">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588967315952" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1589971323489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588937139862" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589971323489" />
     <state x="557" y="307" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1587732920405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -265,5 +373,8 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587730234536" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProjectExample$Main.ic" NAME="Main Coverage Results" MODIFIED="1589983936916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -2,11 +2,18 @@ package com.Class;
 
 import com.inter;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
 public class Client implements inter {
     private String name;
     private int countOfChild;
     private int countOfStudent;
     private int countOfAdult;
+    private int priceOfChild;
+    private int priceOfStudent;
+    private int priceOfAdult;
 
     public Client(String name, int countOfChild, int countOfStudent, int countOfAdult) {
         this.name = name;
@@ -52,10 +59,28 @@ public class Client implements inter {
 
     @Override
     public int getCost() {
-        int sum;
-        sum = countOfChild*800 + countOfStudent*1000 + countOfAdult*1200;
-        return sum;
+        BufferedReader read=null;
+        try {
+            String text;
+            read=new BufferedReader(new FileReader("price.txt"));
+            text=read.readLine();
+            String[] subStr;
+            String delimeter = "-";
+            subStr = text.split(delimeter);
+            int priceA=Integer.parseInt(subStr[0].trim());
+            priceOfAdult=priceA;
+            int priceS=Integer.parseInt(subStr[1].trim());
+            priceOfStudent=priceS;
+            int priceCH=Integer.parseInt(subStr[2].trim());
+            priceOfChild=priceCH;
 
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+        int sum;
+        sum = countOfChild*priceOfChild + countOfStudent*priceOfStudent + countOfAdult*priceOfAdult;
+        return sum;
     }
 
     @Override

@@ -7,6 +7,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URL;
@@ -26,6 +28,93 @@ public class M4 extends Container {
     private JLabel opisanie;
 
     public M4(){
+        BufferedReader read=null;
+        try {
+            String text;
+            read=new BufferedReader(new FileReader("price.txt"));
+            text=read.readLine();
+            String[] subStr;
+            String delimeter = "-";
+            subStr = text.split(delimeter);
+            int priceA=Integer.parseInt(subStr[0].trim());
+            int priceS=Integer.parseInt(subStr[1].trim());
+            int priceCH=Integer.parseInt(subStr[2].trim());
+            Font font = new Font("Arial", Font.BOLD, 25);
+
+
+            titel=new JLabel("1917");
+            titel.setBounds(400,50,350,30);
+            titel.setForeground(Color.WHITE);
+            titel.setFont(font);
+            add(titel);
+
+            childLabel=new JLabel();
+            ImageIcon iconchild=createIcon("/com/posters/child.jpg");
+            childLabel.setIcon(iconchild);
+            childLabel.setBounds(290,300,100,30);
+            add(childLabel);
+
+            font = new Font("Arial", Font.BOLD, 20);
+            String tgChild=priceCH+" KZT";
+            JLabel tg800 = new JLabel(tgChild);
+            tg800.setFont(font);
+            tg800.setBounds(510,300,100,30);
+            tg800.setForeground(Color.red);
+            add(tg800);
+
+            studentLabel=new JLabel();
+            ImageIcon iconstud=createIcon("/com/posters/st.jpg");
+            studentLabel.setIcon(iconstud);
+            studentLabel.setBounds(290,350,100,30);
+            add(studentLabel);
+
+            font = new Font("Arial", Font.BOLD, 20);
+            String tgStudent=priceS+" KZT";
+            JLabel tg1000 = new JLabel(tgStudent);
+            tg1000.setFont(font);
+            tg1000.setBounds(510,350,100,30);
+            tg1000.setForeground(Color.red);
+            add(tg1000);
+
+            adultLabel=new JLabel();
+            ImageIcon iconadult=createIcon("/com/posters/adult.jpg");
+            adultLabel.setIcon(iconadult);
+            adultLabel.setBounds(290,400,100,30);
+            add(adultLabel);
+
+            font = new Font("Arial", Font.BOLD, 20);
+            String tgAdult=priceA+" KZT";
+            JLabel tg1200 = new JLabel(tgAdult);
+            tg1200.setFont(font);
+            tg1200.setBounds(510,400,100,30);
+            tg1200.setForeground(Color.red);
+            add(tg1200);
+
+            font = new Font("Arial", Font.BOLD, 15);
+            String s = "<html>" +
+                    "<p align = center> At the height of the First World War, two young British soldiers, Schofield  " + "</p>" +
+                    "<p align = center> (Captain Fantastic's George MacKay) and Blake (Game of Thrones'  " + "</p>" +
+                    "<p align = center> Dean-Charles Chapman) are given a seemingly impossible mission. In a " + "</p>" +
+                    "<p align = center> race against time, they must cross enemy territory and deliver a " + "</p>" +
+                    "<p align = center> message that will stop a deadly attack on hundreds of soldiers--Blake's " + "</p>"  +
+                    "<p align = center> own brother among them.. <p>" +
+                    "</html>";
+            opisanie = new JLabel(s);
+            opisanie.setBounds(170,-120,600,600);
+            opisanie.setFont(font);
+            opisanie.setForeground(Color.white);
+            add(opisanie);
+
+
+
+
+
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+
+
         setSize(900,600);
         setLayout(null);
 
@@ -35,60 +124,21 @@ public class M4 extends Container {
         }
 
 
-        Font font = new Font("Arial", Font.BOLD, 25);
-        titel=new JLabel("1917");
-        titel.setBounds(400,50,350,30);
-        titel.setForeground(Color.WHITE);
-        titel.setFont(font);
-        add(titel);
+
 
         chisla=new JComboBox(ages);
-        chisla.setBounds(500,300,100,30);
+        chisla.setBounds(400,300,100,30);
         add(chisla);
 
         chisla1=new JComboBox(ages);
-        chisla1.setBounds(500,350,100,30);
+        chisla1.setBounds(400,350,100,30);
         add(chisla1);
 
         chisla2=new JComboBox(ages);
-        chisla2.setBounds(500,400,100,30);
+        chisla2.setBounds(400,400,100,30);
         add(chisla2);
 
-        childLabel=new JLabel();
-        ImageIcon iconchild=createIcon("/com/posters/child.jpg");
-        childLabel.setIcon(iconchild);
-        childLabel.setBounds(250,300,100,30);
-        add(childLabel);
 
-        JLabel tg800 = new JLabel();
-        ImageIcon icon800=createIcon("/com/posters/800.jpeg");
-        tg800.setIcon(icon800);
-        tg800.setBounds(350,300,100,30);
-        add(tg800);
-
-        studentLabel=new JLabel();
-        ImageIcon iconstud=createIcon("/com/posters/st.jpg");
-        studentLabel.setIcon(iconstud);
-        studentLabel.setBounds(250,350,100,30);
-        add(studentLabel);
-
-        JLabel tg1000 = new JLabel();
-        ImageIcon icon1000=createIcon("/com/posters/1000.jpeg");
-        tg1000.setIcon(icon1000);
-        tg1000.setBounds(350,350,100,30);
-        add(tg1000);
-
-        adultLabel=new JLabel();
-        ImageIcon iconadult=createIcon("/com/posters/adult.jpg");
-        adultLabel.setIcon(iconadult);
-        adultLabel.setBounds(250,400,100,30);
-        add(adultLabel);
-
-        JLabel tg1200 = new JLabel();
-        ImageIcon icon1200=createIcon("/com/posters/1200.jpeg");
-        tg1200.setIcon(icon1200);
-        tg1200.setBounds(350,400,100,30);
-        add(tg1200);
 
         food=new JCheckBox("food");
         food.setBounds(400,450,100,30);
@@ -131,7 +181,7 @@ public class M4 extends Container {
 
 
                 if (index==1){
-                    Main.frame.m1.setVisible(false);
+                    Main.frame.m4.setVisible(false);
                     Main.frame.food.setVisible(true);
 
                 }
@@ -146,20 +196,7 @@ public class M4 extends Container {
         });
         add(buttonNext);
 
-        font = new Font("Arial", Font.BOLD, 15);
-        String s = "<html>" +
-                "<p align = center> At the height of the First World War, two young British soldiers, Schofield  " + "</p>" +
-                "<p align = center> (Captain Fantastic's George MacKay) and Blake (Game of Thrones'  " + "</p>" +
-                "<p align = center> Dean-Charles Chapman) are given a seemingly impossible mission. In a " + "</p>" +
-                "<p align = center> race against time, they must cross enemy territory and deliver a " + "</p>" +
-                "<p align = center> message that will stop a deadly attack on hundreds of soldiers--Blake's " + "</p>"  +
-                "<p align = center> own brother among them.. <p>" +
-                "</html>";
-        opisanie = new JLabel(s);
-        opisanie.setBounds(170,-120,600,600);
-        opisanie.setFont(font);
-        opisanie.setForeground(Color.white);
-        add(opisanie);
+
 
         JLabel fone = new JLabel();
         ImageIcon icon = createIcon("/com/posters/fonM4.jpg");

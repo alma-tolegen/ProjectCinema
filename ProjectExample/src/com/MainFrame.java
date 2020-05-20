@@ -20,6 +20,8 @@ public class MainFrame extends JFrame {
     public static M8 m8;
     public static Food food;
     public static Bill bill;
+    public static adminPage adminpage;
+    public static AdminPageGui admin;
 
 
     public MainFrame(){
@@ -93,5 +95,15 @@ public class MainFrame extends JFrame {
         bill.setLocation(0,0);
         bill.setVisible(false);
         add(bill);
+
+        adminpage=new adminPage();
+        adminpage.setLocation(0,0);
+        adminpage.setVisible(false);
+        add(adminpage);
+
+        admin = new AdminPageGui();
+        admin.setLocation(0,0);
+        admin.setVisible(false);
+        add(admin);
     }
 }

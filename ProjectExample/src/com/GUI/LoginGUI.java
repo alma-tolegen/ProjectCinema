@@ -30,12 +30,13 @@ public class LoginGUI extends Container{
 
 
 
+
     public LoginGUI() {
 
         setSize(900,600);
         setLayout(null);
 
-        Font font = new Font(null, Font.BOLD, 22);
+        Font font = new Font("Harrington", Font.BOLD, 22);
 
         JLabel loginLabel = new JLabel("Login");
         loginLabel.setBounds(550,303,200,30);
@@ -47,7 +48,7 @@ public class LoginGUI extends Container{
         login.setBounds(670,300,180,35);
         add(login);
 
-        font = new Font(null, Font.BOLD, 22);
+        font = new Font("Harrington", Font.BOLD, 22);
 
         JLabel password1label = new JLabel("Password");
         password1label.setBounds(550,350,200,40);
@@ -60,7 +61,7 @@ public class LoginGUI extends Container{
         add(password1);
         password1.setEchoChar('*');
 
-        font = new Font(null, Font.BOLD, 35);
+        font = new Font("Harrington", Font.BOLD, 35);
 
         JLabel TitleLabel = new JLabel("AUTHORIZATION");
         TitleLabel.setBounds(580,200,300,50);
@@ -68,7 +69,10 @@ public class LoginGUI extends Container{
         TitleLabel.setFont(font);
         add(TitleLabel);
 
+        font = new Font("Harrington", Font.BOLD, 16);
+
         backButton = new JButton("BACK");
+        backButton.setFont(font);
         add(backButton);
         backButton.setBounds(550, 520, 80, 30);
         backButton.addActionListener(new ActionListener() {
@@ -80,8 +84,11 @@ public class LoginGUI extends Container{
             }
         });
 
+        font = new Font("Harrington", Font.BOLD, 16);
+
         nextButton = new JButton("COME IN");
         nextButton.setBounds(770, 520, 100, 30);
+        nextButton.setFont(font);
         add(nextButton);
         nextButton.addActionListener(new ActionListener() {
             @Override

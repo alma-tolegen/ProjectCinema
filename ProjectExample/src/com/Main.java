@@ -18,7 +18,6 @@ public class Main {
 
     public static void main(String[] args) {
         connectServer();
-       // System.out.println("AAAAAAAAAaaa");
         frame = new MainFrame();
         frame.setVisible(true);
 
@@ -26,7 +25,7 @@ public class Main {
 
     public static void connectServer(){
         try {
-            socket=new Socket("localhost",8998);
+            socket=new Socket("localhost",8008);
             oos=new ObjectOutputStream(socket.getOutputStream());
             ois=new ObjectInputStream(socket.getInputStream());
         } catch (Exception e) {
@@ -37,7 +36,7 @@ public class Main {
     public static void addUser(PackageData pd) {
         try{
             oos.writeObject(pd);
-            //pd = (PackageData)ois.readObject();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -45,10 +44,8 @@ public class Main {
 
     public static void login(PackageData pd) {
         try {
-            //System.out.println(pd);
             oos.writeObject(pd);
             pd = (PackageData) ois.readObject();
-            //System.out.println(pd.getCode());
             if (pd.getCode().equals("user")) {
                 frame.loginWindow.error(pd.getCode());
             }

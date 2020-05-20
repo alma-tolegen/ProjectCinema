@@ -12,10 +12,7 @@ public class Server {
 
     public static void main(String[] args) {
         try {
-            //Class.forName("com.mysql.cj.jdbc.Driver");
-            //connection = DBManager.connection() ;
-
-            ServerSocket serverSocket=new ServerSocket(8998);
+            ServerSocket serverSocket=new ServerSocket(8008);
             System.out.println("Waiting for a client...");
             while(true){
                 Socket socket=serverSocket.accept();

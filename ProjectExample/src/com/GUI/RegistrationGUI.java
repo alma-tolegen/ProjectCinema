@@ -8,6 +8,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.URL;
 import java.sql.Connection;
 
 public class RegistrationGUI extends Container {
@@ -193,5 +194,21 @@ public class RegistrationGUI extends Container {
             }
         });
         add(backButton);
+
+        JLabel label = new JLabel();
+        ImageIcon icon1 = createIcon("/images/12.jpg");
+        label.setBounds(0,0,900,600);
+        label.setIcon(icon1);
+        add(label);
+    }
+
+    protected static ImageIcon createIcon (String path){
+        URL imgURL = LoginGUI.class.getResource(path);
+        if (imgURL != null) {
+            return new ImageIcon(imgURL);
+        } else {
+            System.err.println("File not found " + path);
+            return null;
+        }
     }
 }

@@ -26,7 +26,6 @@ public class ServerThread extends Thread {
 
             while (true) {
                 PackageData packageData = (PackageData) inputStream.readObject();
-                //System.out.println(packageData);
 
                 if (packageData.getCode().equals("addUser")) {
                     RegistrationUsers rU = packageData.getRegistrationUsers();
@@ -46,31 +45,33 @@ public class ServerThread extends Thread {
                     } catch (SQLException e) {
                         e.printStackTrace();
                     }
-                    //addUser(packageData.getRegistrationUsers());
                 }
                 else if (packageData.getCode().equals("login")) {
                     RegistrationUsers rU = packageData.getRegistrationUsers();
-                        try {
-                            String query = "select * from regusers where login=? and password1=?";
-                            PreparedStatement preparedStatement;
-                            preparedStatement = connection.prepareStatement(query);
-                            preparedStatement.setString(1, rU.getLogin());
-                            preparedStatement.setString(2, rU.getPassword1());
-                            ResultSet resultSet;
-                            resultSet = preparedStatement.executeQuery();
-                            if (resultSet.next()) {
-                                packageData.setCode("user");
-                                outputStream.writeObject(packageData);
-                            } else {
-                                outputStream.writeObject(packageData);
-                            }
-                        } catch (SQLException et) {
+                    try {
+                        String query = "select * from regusers where login=? and password1=?";
+                        PreparedStatement preparedStatement;
+                        preparedStatement = connection.prepareStatement(query);
+                        preparedStatement.setString(1, rU.getLogin());
+                        preparedStatement.setString(2, rU.getPassword1());
+                        ResultSet resultSet;
+                        resultSet = preparedStatement.executeQuery();
+                        if (resultSet.next()) {
+                            packageData.setCode("user");
                             outputStream.writeObject(packageData);
-                            et.printStackTrace();
                         }
 
-                }
+                        else {
+                            outputStream.writeObject(packageData);
+                        }
 
+                    }
+
+                    catch (SQLException et) {
+                        outputStream.writeObject(packageData);
+                        et.printStackTrace();
+                    }
+                }
             }
         } catch (Exception e) {
             //e.printStackTrace();
