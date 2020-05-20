@@ -1,80 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4f9a339-17cc-4e5a-9acf-21e17d2ddc3d" name="Default Changelist" comment="Commit2">
-      <change afterPath="$PROJECT_DIR$/src/com/GUI/AdminPageGui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/GUI/adminPage.java" afterDir="false" />
+    <list default="true" id="a4f9a339-17cc-4e5a-9acf-21e17d2ddc3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/Class/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/Class/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/Class/ClientAndFood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/Class/ClientAndFood.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/Food$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/Food$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/Food$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/Food$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/LoginGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/LoginGUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/LoginGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/LoginGUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/LoginGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/LoginGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/GUI/RegistrationGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/PackageData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/PackageData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/ServerThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M3$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M3$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M4$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M4$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M5$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M5$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M5$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M6$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M6$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M6$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M7$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M7$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M7$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M7$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M8$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M8$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M8$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M8$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectExample/com/movieGUI/M8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Class/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Class/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Class/ClientAndFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Class/ClientAndFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/GUI/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/GUI/LoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/LoginGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/GUI/RegistrationGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/RegistrationGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/PackageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PackageData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/clock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/movieGUI/M8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movieGUI/M8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588967313262</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit2">
+      <created>1589993553877</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589993553877</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -293,10 +228,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="224" y="126" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588265473433" />
-    <state x="694" y="15" key="CommitChangelistDialog2" timestamp="1589993506453">
+    <state x="694" y="15" key="CommitChangelistDialog2" timestamp="1589993551064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="694" y="15" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589993506453" />
+    <state x="694" y="15" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589993551064" />
     <state x="385" y="158" key="ConfigureClientPropertiesDialog" timestamp="1587974087514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -341,10 +276,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="262" y="14" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588319464757" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1588967315952">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1589993558012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588967315952" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589993558012" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1589971323489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
