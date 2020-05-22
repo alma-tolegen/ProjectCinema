@@ -78,25 +78,6 @@ public class ServerThread extends Thread {
             System.out.println("Client lost");
         }
     }
-
-    public static void addUser(RegistrationUsers rU) {
-        try {
-            System.out.println(rU.toString() + " " + rU.getName());
-            String query = "insert into regusers (name, surname, login, password1, password2) values (?, ?, ?, ?, ?)";
-            PreparedStatement statement = connection.prepareStatement(query);
-            statement.setString(1, rU.getName());
-            statement.setString(2, rU.getSurname());
-            statement.setString(3, rU.getLogin());
-            statement.setString(4, rU.getPassword1());
-            statement.setString(5, rU.getPassword2());
-
-            statement.execute();
-            statement.close();
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
 }
 
 
