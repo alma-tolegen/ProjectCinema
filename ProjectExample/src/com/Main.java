@@ -36,7 +36,6 @@ public class Main {
     public static void addUser(PackageData pd) {
         try{
             oos.writeObject(pd);
-
         } catch (IOException e) {
             e.printStackTrace();
         }

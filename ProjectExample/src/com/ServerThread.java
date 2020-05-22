@@ -23,14 +23,13 @@ public class ServerThread extends Thread {
             ObjectOutputStream outputStream = new ObjectOutputStream(socket.getOutputStream());
             ObjectInputStream inputStream = new ObjectInputStream(socket.getInputStream());
 
-
             while (true) {
                 PackageData packageData = (PackageData) inputStream.readObject();
 
                 if (packageData.getCode().equals("addUser")) {
                     RegistrationUsers rU = packageData.getRegistrationUsers();
                     try {
-                        System.out.println(rU.toString() + " " + rU.getName());
+                        System.out.println(rU.toString());
                         String query = "insert into regusers (name, surname, login, password1, password2) values (?, ?, ?, ?, ?)";
                         PreparedStatement statement = connection.prepareStatement(query);
                         statement.setString(1, rU.getName());
